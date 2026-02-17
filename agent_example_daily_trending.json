@@ -1,0 +1,27 @@
+{
+  "name": "LinkedIn Trending Topics Agent",
+  "description": "Daily LinkedIn post about trending AI and tech topics",
+  "schedule": "daily",
+  "schedule_time": "09:00",
+  "enabled": true,
+  "command": "node",
+  "args": [
+    "C:\\Users\\manoh\\personaliz-desktop\\linkedin_bot.js",
+    "🔥 Trending in Tech Today!\n\n✨ AI continues to revolutionize how we work and create\n💡 Automation tools are becoming essential for productivity\n🚀 Open source projects are driving innovation forward\n\nWhat tech trends are you most excited about?\n\n#TechTrends #AI #Automation #Innovation #TechCommunity"
+  ],
+  "working_directory": "C:\\Users\\manoh\\personaliz-desktop",
+  "timeout": 300000,
+  "retry_on_failure": false,
+  "notifications": {
+    "on_success": true,
+    "on_failure": true
+  },
+  "metadata": {
+    "created_by": "Personaliz Assistant",
+    "created_at": "2026-02-17T09:00:00.000Z",
+    "agent_type": "linkedin_daily_post",
+    "content_type": "trending_topics",
+    "requires_manual_approval": true,
+    "notes": "This agent runs Playwright automation. User must manually log in to LinkedIn and click 'Post' button after reviewing content."
+  }
+}

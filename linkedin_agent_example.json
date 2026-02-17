@@ -1,0 +1,25 @@
+{
+  "name": "LinkedIn Daily Poster",
+  "description": "Automatically generates and posts LinkedIn content daily",
+  "schedule": "daily",
+  "schedule_time": "09:00",
+  "enabled": true,
+  "command": "node",
+  "args": [
+    "C:\\Users\\manoh\\personaliz-desktop\\linkedin_bot.js",
+    "🚀 Daily Update: Making progress on AI automation projects! Excited to share insights on building intelligent desktop assistants with Tauri and Playwright. #AI #Automation #WebDev"
+  ],
+  "working_directory": "C:\\Users\\manoh\\personaliz-desktop",
+  "timeout": 300000,
+  "retry_on_failure": false,
+  "notifications": {
+    "on_success": true,
+    "on_failure": true
+  },
+  "metadata": {
+    "created_by": "Personaliz Assistant",
+    "created_at": "2026-02-17",
+    "agent_type": "linkedin_automation",
+    "requires_manual_approval": true
+  }
+}

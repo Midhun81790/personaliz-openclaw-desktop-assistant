@@ -1,0 +1,29 @@
+{
+  "name": "LinkedIn Hashtag Monitor",
+  "description": "Hourly check of #openclaw hashtag on LinkedIn for engagement opportunities",
+  "schedule": "hourly",
+  "schedule_interval": 1,
+  "enabled": true,
+  "command": "node",
+  "args": [
+    "C:\\Users\\manoh\\personaliz-desktop\\linkedin_hashtag_monitor.js",
+    "#openclaw"
+  ],
+  "working_directory": "C:\\Users\\manoh\\personaliz-desktop",
+  "timeout": 180000,
+  "retry_on_failure": true,
+  "max_retries": 2,
+  "notifications": {
+    "on_success": false,
+    "on_failure": true
+  },
+  "metadata": {
+    "created_by": "Personaliz Assistant",
+    "created_at": "2026-02-17T09:00:00.000Z",
+    "agent_type": "linkedin_hashtag_monitor",
+    "hashtag": "#openclaw",
+    "interaction_type": "view_and_analyze",
+    "requires_manual_approval": true,
+    "notes": "Safe demo agent - opens LinkedIn hashtag search, scrolls through posts, does NOT auto-like or auto-comment. Browser stays visible for transparency."
+  }
+}
